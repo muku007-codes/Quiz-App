@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  font-family: "Fredoka One", cursive;
+}
+
+.quiz-container {
+  color: white;
+  /* display: block; */
+  border: 3px solid blanchedalmond;
+  width: 500px;
+  max-width: 100%;
+  background-color: #03045e;
+  transition: box-shadow 200ms ease-in 0s;
+  border-radius: 5px;
+  visibility: visible;
+}
+
+.quiz-container:hover {
+  /* box-shadow: 0px 0px 12px 12px black; */
+  box-shadow: -8px 8px 0 black;
+}
+
+li {
+  list-style: none;
+}
+
+.quiz-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.quiz-container ul {
+  padding-left: 2rem;
+}
+.quiz-container ul li {
+  padding: 0.5rem;
+  margin: 0.1rem 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #90e0ef;
+  font-size: 1.5rem;
+  color: black;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.name h1 {
+  display: inline;
+}
+.name span {
+  font-size: 55px;
+}
+#name {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+#score {
+  font-size: 45px;
+}
+#finish {
+  font-size: 50px;
+  visibility: hidden;
+}
+footer a {
+  color: black;
+}
+footer a:first-child {
+  font-size: large;
+  color: red;
+}
